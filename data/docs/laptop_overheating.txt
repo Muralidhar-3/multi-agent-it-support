@@ -1,0 +1,38 @@
+Title: Laptop Overheating Issue
+
+Problem:
+Laptop becomes very hot during usage, fan runs loudly, and system performance slows down.
+
+Common Causes:
+- Dust accumulation in cooling vents or fan
+- High CPU usage due to background applications
+- Poor ventilation (using laptop on bed or soft surface)
+- Outdated drivers or BIOS
+- Thermal paste degradation
+
+Solutions:
+1. Clean Air Vents:
+   Use compressed air to remove dust from vents and fan areas.
+
+2. Check Running Applications:
+   Open Task Manager and close unnecessary high-CPU processes.
+
+3. Use Hard Surface:
+   Always place the laptop on a flat, hard surface to allow airflow.
+
+4. Update Drivers:
+   Update system drivers and BIOS from the official manufacturer website.
+
+5. Cooling Pad:
+   Use an external cooling pad to improve airflow.
+
+6. Reduce Load:
+   Avoid running heavy applications simultaneously.
+
+7. Thermal Paste Replacement:
+   If the laptop is old, consider replacing thermal paste (requires technician).
+
+When to Escalate:
+- Laptop shuts down automatically due to heat
+- Temperature exceeds safe limits frequently
+- Fan not working properly

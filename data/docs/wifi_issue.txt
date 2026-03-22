@@ -1,0 +1,41 @@
+Title: WiFi Connectivity Issue
+
+Problem:
+User is unable to connect to WiFi or experiences frequent disconnections or slow internet.
+
+Common Causes:
+- Router issues or weak signal strength
+- Incorrect WiFi password
+- Network driver issues
+- IP conflict
+- ISP downtime
+
+Solutions:
+1. Restart Router:
+   Turn off the router, wait 30 seconds, and turn it back on.
+
+2. Check Password:
+   Ensure the correct WiFi password is entered.
+
+3. Move Closer to Router:
+   Weak signals can cause connectivity issues.
+
+4. Forget and Reconnect Network:
+   Remove saved network and reconnect.
+
+5. Update Network Drivers:
+   Update WiFi drivers from the device manager.
+
+6. Run Network Troubleshooter:
+   Use built-in OS troubleshooting tools.
+
+7. Check Airplane Mode:
+   Ensure airplane mode is turned off.
+
+8. Reset Network Settings:
+   Reset network configuration if issue persists.
+
+When to Escalate:
+- No devices can connect to WiFi
+- Internet not working even after router restart
+- Frequent disconnections across all devices
