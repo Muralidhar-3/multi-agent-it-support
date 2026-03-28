@@ -24,4 +24,6 @@ def knowledge_agent(state):
     except:
         response = openrouter_llm(prompt)
 
+        print("knowledge",response)
+
     return {"knowledge": response}

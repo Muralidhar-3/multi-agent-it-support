@@ -12,4 +12,6 @@ def ticket_agent(state):
     )
     conn.commit()
 
+    print(f"Ticket created with priority {priority}")
+
     return {"ticket": f"Ticket created with priority {priority}"}

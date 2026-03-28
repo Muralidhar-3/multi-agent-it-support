@@ -1,4 +1,5 @@
-from app.services.llm import gemini_llm
+from app.services.llm import groq_llm
+import ast
 
 def planner(state):
     
@@ -15,13 +16,19 @@ def planner(state):
     Query: {query}
 
     Output only a Python list.
+
+    Only provide the information if the query is related to IT issues. 
+    if the user query is not related to IT issues, 
+    do not provide any tasks and say I don not have information about it.
     """
 
-    response = gemini_llm(prompt)
+    response = groq_llm(prompt)
 
     try:
-        tasks = eval(response)
+        tasks = ast.literal_eval(response)
     except:
         tasks = ["knowledge", "priority"]
 
+    print("planner", tasks)
     return {"tasks": tasks}
+    

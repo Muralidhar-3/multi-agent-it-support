@@ -1,4 +1,4 @@
-from app.services.llm import gemini_llm
+from app.services.llm import groq_llm
 
 def aggregator(state):
     prompt = f"""
@@ -14,6 +14,8 @@ def aggregator(state):
     {state.get('priority')}
     """
 
-    response = gemini_llm(prompt)
+    response = groq_llm(prompt)
+
+    print("aggregator", response)
 
     return {"final_response": response}

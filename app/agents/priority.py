@@ -11,4 +11,5 @@ def priority_agent(state):
 
     response = groq_llm(prompt)
 
+    print("priority", response)
     return {"priority": response.strip().lower()}
